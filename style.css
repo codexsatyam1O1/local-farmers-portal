@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    background-color: #f2f7f1;
+    margin: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+input {
+    padding: 9px;
+    margin: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
